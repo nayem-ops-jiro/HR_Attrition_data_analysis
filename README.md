@@ -2,7 +2,8 @@
 
 This project analyzes employee attrition using MySQL for data querying and Tableau for visualization. It uses the IBM HR Employee Attrition dataset to identify key factors behind employee turnover and segment high-risk employee groups.
 
-![Dashboard Preview](assest/HR attrition dashboard.png)
+![Dashboard Preview]<img width="1696" height="794" alt="HR attrition dashboard" src="https://github.com/user-attachments/assets/874643bf-d08f-437d-a5b0-e7ae483e1ea1" />
+
 
 ## Live Dashboard
 * [View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/HR_attritiondashboard/HRATTRITIONDASHBOARD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -21,8 +22,8 @@ This project analyzes employee attrition using MySQL for data querying and Table
 ## Project Structure
 
 * **`data/`**: Raw CSV dataset.
-* **`sql/01_data_cleaning.sql`**: SQL queries for column fixes, staging table setup, and basic metrics.
-* **`sql/02_attrition_risk_analysis.sql`**: Advanced SQL queries including window functions for peer salary benchmarks, temporary tables, risk scoring, and high-risk cohort isolation.
+* **`sql/data_cleaning & EDA.sql`**: SQL queries for column fixes, staging table setup, and basic metrics.
+* **`sql/attrition_analysis.sql`**: Advanced SQL queries including window functions for peer salary benchmarks, temporary tables, risk scoring, and high-risk cohort isolation.
 * **`tableau/`**: Packaged Tableau workbook file (.twbx).
 * **`assets/`**: Screenshot preview of the dashboard.
 
