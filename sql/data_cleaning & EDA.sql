@@ -153,7 +153,7 @@ FROM factor_flags
 GROUP BY burnout_score
 ORDER BY burnout_score;
 
--- creating temp table because of the restriction of cte.
+-- Creating temp table because of the restriction of CTE.
 DROP TABLE IF EXISTS factor_flags;
 
 CREATE TEMPORARY TABLE factor_flags AS
