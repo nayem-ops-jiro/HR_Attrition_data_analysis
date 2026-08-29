@@ -1,6 +1,6 @@
--- ====================================================================
+
 -- FILE 2: ADVANCED RISK SCORING & HIGH-RISK RETENTION COHORTS
--- ====================================================================
+
 
 -- 1. Peer-Pay Benchmarking & Combined Risk Scoring
 -- Benchmarks monthly income against peer average per (JobRole, JobLevel)
